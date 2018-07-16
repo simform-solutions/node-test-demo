@@ -1,4 +1,4 @@
-const dbUri = 'mongodb://172.16.1.194:27017/node-test';
+const dbUri = 'mongodb://localhost:27017/node-test';
 
 
 exports.const = {
