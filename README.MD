@@ -8,7 +8,8 @@ Goto `config.js` and modify your `dbUri` url
   - `npm run seed` to seed the db
 
 Following endpoints are exposed as REST APIs
-run by prefixing localhost:10001
+run by prefixing `localhost:10001/api`
+
 ## Create
 POST /post/create
 
@@ -16,14 +17,11 @@ POST /post/create
 GET /post/getPost/:id
 
 ## get all
-
 GET /post/getAllPost
 
 ## update
-
 PUT /post/update/:id
 
 ## delete
-
 DELETE /post/delete/:id
 
